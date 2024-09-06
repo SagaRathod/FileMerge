@@ -14,7 +14,11 @@ FileMerge is application which accept directory name from user and combine all c
 # check directory
 
    readdir()
+
+
    opendir()
+
+
    closedir()
 
 # Understand the dirent and stat Structure
@@ -25,14 +29,24 @@ first delete AllCombine file from dirctory
 in Demo folder i created 6 file
 
 1.
-open file vi FileMerge.c
-compile file cc FileMerge.c
-run ./a.out Demo
+    open :file vi FileMerge.c
 
-2. using MakeFile
-   open file vi Filemerge.c
- compile make
-  ./FinalExe Demo
+
+    compile :file cc FileMerge.c
+
+    run : ./a.out Demo
+
+3.
+      using MakeFile
+
+
+      open: file vi Filemerge.c
+
+
+      compile: make
+
+
+      run : ./FinalExe Demo
 
   
    
